@@ -1,16 +1,28 @@
 {
-  "name": "jade-stuff",
+  "name": "MessageBoardFrontend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "moment": "^2.13.0",
+    "node-static": "^0.7.7",
+    "module": "^1.2.5",
+    "qs": "^6.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/march-dave/MessageBoardFrontend.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jade": "^1.11.0"
-  }
+  "bugs": {
+    "url": "https://github.com/march-dave/MessageBoardFrontend/issues"
+  },
+  "homepage": "https://github.com/march-dave/MessageBoardFrontend#readme",
+  "description": ""
 }
